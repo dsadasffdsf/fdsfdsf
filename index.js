@@ -1,6 +1,8 @@
 // Import packages
 const express = require("express");
+const bodyParser = require('body-parser');
 const home = require("./routes/home");
+const cors = require('cors');
 
 // Middlewares
 const app = express();
